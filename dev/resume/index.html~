@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>PKeu.net - Paul Keutelian</title>
+		<meta name=viewport content="width=device-width, height=device-height, initial-scale=1">
+		<meta name="theme-color" content="#29293D">
+		<script async src="http://component.kitchen/packages/sample/webcomponentsjs/webcomponents.js"></script>
+		<script async src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+		<link async rel='stylesheet' type='text/css' href="css/stylesheet.css">
+		<!link rel="import" href="build.html">
+		<link rel="import" href="elements.html"> <!-- remove once grunt is running -->
+		<link rel="icon" type="img/ico" href="./images/favicon.ico">
+	</head>
+<body class="fullbleed layout vertical custom-style">
+<h1>Hello, world.</h1>
+</body>
+</html> 
