@@ -1,0 +1,19 @@
+{
+  "name": "pkeu-net",
+  "description": "Website for Paul Keutelian portfolio.",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "Paul Keutelian"
+  ],
+  "license": "MIT",
+  "homepage": "www.pkeu.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
