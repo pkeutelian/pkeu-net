@@ -1,0 +1,73 @@
+
+.bodytext {
+	margin-left: 100px;
+	margin-right: 100px;
+	font-color:white;
+}
+
+#title{
+	background-color:#29293D;
+}
+body{
+	background:black;
+	color:white;
+	font-family: 'Open Sans', sans-serif, roboto;
+}
+p{
+
+	font-size: 1.5em;
+}
+
+paper-toolbar.paper-toolbar-0 {
+	background: black;
+	color: white;
+}
+
+paper-menu{
+	:host{--paper-menu-background-color:#29293D;}
+}
+
+.topmenu{
+	--paper-tab-ink: white;
+	ink: white;
+	color: white;
+	font-size:1.5em;
+}
+
+paper-tabs {
+	--paper-tabs-selection-bar-color:silver;
+}
+paper-tab {
+	--paper-tab-ink: silver;
+}
+
+#Slogan {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight:300; 
+	font-size:3em; 
+	height:19%;
+	min-height:4em;
+}
+
+#Footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight:300; 
+	font-size:1.5em; 
+	height:19%;
+	background-color:white;
+	color:black;
+	min-height:4em;
+}
+
+.topmenu{
+	font-color:white;
+}
+.menuitem:hover{
+	color:gray;
+}
+
+
