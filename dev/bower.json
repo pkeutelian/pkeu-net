@@ -1,0 +1,37 @@
+{
+  "name": "pkeu-net",
+  "description": "Website for Paul Keutelian portfolio.",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "Paul Keutelian"
+  ],
+  "license": "MIT",
+  "homepage": "www.pkeu.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.2.0",
+    "iron-behaviors": "PolymerElements/iron-behaviors#^1.0.12",
+    "iron-collapse": "PolymerElements/iron-collapse#^1.0.6",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.2.3",
+    "paper-button": "PolymerElements/paper-button#^1.0.11",
+    "paper-card": "PolymerElements/paper-card#^1.1.1",
+    "paper-fab": "PolymerElements/paper-fab#^1.2.0",
+    "paper-material": "PolymerElements/paper-material#^1.0.6",
+    "paper-tooltip": "PolymerElements/paper-tooltip#^1.1.1",
+    "paper-styles": "PolymerElements/paper-styles#^1.1.3",
+    "paper-icon-button": "PolymerElements/paper-icon-button#^1.0.6",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.7",
+    "iron-icons": "PolymerElements/iron-icons#^1.1.3",
+    "iron-iconset": "PolymerElements/iron-iconset#^1.0.4",
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg#^1.0.9",
+    "iron-image": "PolymerElements/iron-image#^1.2.2"
+  }
+}
