@@ -7,11 +7,24 @@
 
 #title{
 	background-color:#29293D;
+
 }
+.paper-header{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+}
+
 body{
+	font-family: 'Open Sans', sans-serif, roboto;
+	margin:0 0 0 0;
+}
+#CleanBackground{
+	background:white;
+	color:black;
+}
+#DarkBackground{
 	background:black;
 	color:white;
-	font-family: 'Open Sans', sans-serif, roboto;
 }
 p{
 
@@ -49,6 +62,14 @@ paper-tab {
 	font-size:3em; 
 	height:19%;
 	min-height:4em;
+/*	background-color:rgba(0,0,0,0.7); */
+	background: repeating-linear-gradient(
+	135deg,
+	rgba(255,255,255,0.2),
+	rgba(255,255,255,0.2) 10px,
+	rgba(128,128,128,0.2) 10px,
+	rgba(128,128,128,0.2) 20px
+	);
 }
 
 #Footer {
@@ -61,13 +82,40 @@ paper-tab {
 	background-color:white;
 	color:black;
 	min-height:4em;
+	margin:0;
 }
 
 .topmenu{
 	font-color:white;
+	opacity:1;
 }
+
 .menuitem:hover{
 	color:gray;
 }
 
+#video-background { 
+  position: absolute;
+  bottom: 0%; 
+  right: 0%;
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto; 
+  height: auto;
+  z-index: -100;
+    overflow: hidden;
+}
 
+#video-background 1{ 
+  position: absolute;
+  bottom: 50%; 
+  right: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto; 
+  height: auto;
+  z-index: -1000; 
+  overflow: hidden;
+}
