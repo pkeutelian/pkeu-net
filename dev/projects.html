@@ -6,13 +6,13 @@
 		<meta name="theme-color" content="#29293D">
 		<script src="http://component.kitchen/packages/sample/webcomponentsjs/webcomponents.js"></script>
 		<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
-		<link rel='stylesheet' type='text/css' href="css/stylesheet.css">
+		<link rel='stylesheet' type='text/css' href="css/style.css">
 		<!link rel="import" href="build.html">
 		<link rel="import" href="elements.html"> <!-- remove once grunt is running -->
 		<link rel="icon" type="img/ico" href="./images/favicon.ico">		
 	</head>
-<body class="fullbleed layout vertical custom-style CleanBackground"> 
-	<paper-header-panel mode="scroll" class="flex custom-style" id="title">			
+<body class="fullbleed layout vertical"> 
+	<paper-header-panel mode="scroll" class="flex" id="title">			
 		<div class="paper-header" style="font-weight:300;"><center>
 			<div style="text-align:center;  max-width:1024px;">
 				<table style="margin-left:3em; margin-right:3em; height:3em; font-size:1em;">
@@ -27,15 +27,16 @@
 			</div>
 		</center></div>
 		<div class="fit">
-			<div style="width:100%; height:59%; min-height:24em;">
-				</div>		
+			<div style="width:100%; height:59%; min-height:24em;"></div>
 			<!iron-image style="width:100%; height:59%; min-height:24em;" sizing="cover" src="images/stock-transfer-banner.jpg"><!/iron-image>
 			<!iron-image autoplay loop muted style="width:100%; height:59%; min-height:24em;" sizing="cover" src="vid/launch.mp4"><!/iron-image>
-			<div id="Slogan">Design/Build/Fly, AIAA</div>
-			<div id="Footer">Contact</div>
-			<div id="Slogan">HIIPER Space Propulsion Lab, UIUC</div>
-			<div id="Footer">Arduino Builds</div>
-			<div id="Slogan">Unicron</div>
+			<div class="div-light spacer">
+				<div class="sub-title">HIIPER - Fusion Studies Lab</div>
+				<div class="sub-text">HIIPER (Helicon Injected Inertial Plasma Electrostatic Rocket) is a new class of spacecraft thruster we are developing that I feel will change the way space thrusters are approached and designed. In its end state it will be a thruster and a fusion reactor rolled in one. I deal more with the aerospace side of the engine, specifically its thrust capability, the shape of the exhaust and its ability to accomplish missions, as well as building simulations, experiment and testing, and doing CAD work. Additionally, I'm learning about space propulsion as part of my graduate work in NPRE. The beauty about this lab is that when someone has a good idea, we can and are encouraged to implement it, and because of that our design/upgrade/build times have been very fast. This picture was prepared by me for a proposal. I joined this lab because of my interest and previous work in applying plasma principles to combustion based engines.</div>
+			</div>
+			<div class="div-dark spacer">HIIPER Space Propulsion Lab, UIUC</div>
+			<div class="div-light spacer">Arduino Builds</div>
+			<div class="div-dark spacer">Unicron</div>
 			<p><hr width="38%">
 		</div>
 	</paper-header-panel>
