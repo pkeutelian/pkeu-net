@@ -6,35 +6,39 @@
 		<meta name="theme-color" content="#29293D">
 		<script src="http://component.kitchen/packages/sample/webcomponentsjs/webcomponents.js"></script>
 		<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
-		<link rel='stylesheet' type='text/css' href="css/stylesheet.css">
-		<!link rel="import" href="build.html">
 		<link rel="import" href="elements.html"> <!-- remove once grunt is running -->
+		<! Move the following lines to imports >
+		<link href='https://fonts.googleapis.com/css?family=Work+Sans:100,700,300' rel='stylesheet' type='text/css'>
+		<link rel="import" href="bower_components/polymer/polymer.html">
+		<link rel="import" href="bower_components/paper-button/paper-button.html">
+		<link rel="import" href="bower_components/paper-card/paper-card.html">
+		<link rel="import" href="bower_components/iron-collapse/iron-collapse.html">
+		<! End imports lines>
+		<link rel='stylesheet' type='text/css' href="css/style.css">
+		<!link rel="import" href="build.html">
+
 		<link rel="icon" type="img/ico" href="./images/favicon.ico">		
 	</head>
-<body class="fullbleed layout vertical custom-style DarkBackground"> 
-<video src="vid/mm.mp4" autoplay loop muted id="video-background">NOT WORKING</video>
-	<paper-header-panel mode="scroll" class="flex custom-style" id="title">			
-		<div class="paper-header" style="font-weight:300;"><center>
-			<div style="text-align:center;  max-width:1024px;">
-				<table style="margin-left:3em; margin-right:3em; height:2.71em; font-size:1em;">
-					<tr><td style="width:5%"></td>
-						<td style="width=0%" class="menuitem">Home</td><td style="width:15%"></td>
-						<td style="width=0%" class="menuitem">Blog</td><td style="width:15%"></td>
-						<td style="width:0%" class="menuitem">Projects</td><td style="width:15%"></td>
-						<td style="width=0%" class="menuitem">Resume</td><td style="width:15%"></td>
-						<td style="width=0%" class="menuitem">Contact</td><td style="width:5%"></td>
-					</tr>
-				</table>
+	<body unresolved class="fullbleed layout vertical custom-style DarkBackground"> 
+		<video src="vid/mm.mp4" autoplay loop muted id="video-background">NOT WORKING</video>
+		<paper-header-panel mode="scroll" class="flex" id="title">
+			<div class="paper-header">
+				<div class="topmenu">
+					<a href="index.html">Home</a>
+					<a href="blog.html">Blog</a>
+					<a href="projects.html">Projects</a>
+					<a href="resume.html">Resume</a>
+					<a href="contact.html">Contact</a>
+				</div>
 			</div>
-		</center></div>
-		<div class="fit">
-			<div style="width:100%; height:59%; min-height:24em;"></div>		
-			<!iron-image style="width:100%; height:59%; min-height:24em;" sizing="cover" src="images/stock-transfer-banner.jpg"><!/iron-image>
-			<!iron-image autoplay loop muted style="width:100%; height:59%; min-height:24em;" sizing="cover" src="vid/launch.mp4"><!/iron-image>
-			<div id="Slogan">Douchey Buzzword. Synergized.</div>
-			<div id="Footer">Contact</div>
-			<p><hr width="38%">
-		</div>
-	</paper-header-panel>
-</body>
+			<div class="fit">
+				<div style="width:100%; height:59%; min-height:50em;"></div>		
+				<!iron-image style="width:100%; height:59%; min-height:24em;" sizing="cover" src="images/stock-transfer-banner.jpg"><!/iron-image>
+				<!iron-image autoplay loop muted style="width:100%; height:59%; min-height:24em;" sizing="cover" src="vid/launch.mp4"><!/iron-image>
+				<div class="spacer div-dark" id="Slogan">Douchey Buzzword. Synergized.</div>
+				<div class="spacer div-light" id="Footer">Contact</div>
+				<p><hr width="38%">
+			</div>
+		</paper-header-panel>
+	</body>
 </html> 
