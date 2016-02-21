@@ -46,6 +46,13 @@ body{
 	max-width:1024px;
 	width:98%;
 }
+
+.horcontent{
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
 .topmenu {
 	display:flex; 
 	justify-content:space-between;
@@ -123,6 +130,18 @@ body{
 	max-width:984px;
 	text-align:center;
 	margin:0 20px 0 20px;
+}
+
+.sub-col{
+	display:flex;
+	font-size:1em;
+	line-height:1em;
+}
+
+ul {
+	list-style-type: none;
+	text-align:left;
+	padding: 0 10px 0 10px;
 }
 
 #video-background {
