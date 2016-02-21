@@ -21,41 +21,40 @@
 		<link rel="import" href="./bower_components/iron-collapse/iron-collapse.html">
 
 	</head>
-<body class="fullbleed layout vertical custom-style">
-<!body unresolved>
-	<paper-header-panel mode="scroll" class="flex" id="title">			
-		<div class="paper-header" style="font-weight:700;"><center>
-			<div style="text-align:center;  max-width:1024px;">
-				<table style="margin-left:3em; margin-right:3em; height:3em; font-size:1em;">
-					<tr>
-						<td style="width=0%" class="menuitem">Home</td><td style="width:20%"></td>
-						<td style="width=0%" class="menuitem">Blog</td><td style="width:20%"></td>
-						<td style="width:0%" class="menuitem"><a href="projects.html">Projects</a></td><td style="width:20%"></td>
-						<td style="width=0%" class="menuitem"><a href="resume.html">Resume</a></td><td style="width:20%"></td>
-						<td style="width=0%" class="menuitem">Contact</td>
-					</tr>
-				</table>
-			</div></center>
-		</div>
-		<div class="fit">
-			<button class="heading" aria-expanded$="[[isExpanded(opened1)]]" aria-controls="collapse1" onclick="toggle('#collapse1')">Collapse #1</button>
-			<template is="dom-bind">
-				<iron-collapse id="collapse1" tabindex="0" opened="{{opened1}}">
-				  <div class="content">
-					<div>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea, id minim maiestatis incorrupte duo. Dolorum verterem ad ius, his et nullam verterem. Eu alia debet usu, an doming tritani est. Vix ad ponderum petentium suavitate, eum eu tempor populo, graece sententiae constituam vim ex. Cu torquatos reprimique neglegentur nec, voluptua periculis has ut, at eos discere deleniti sensibus. Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea, id minim maiestatis incorrupte duo. Dolorum verterem ad ius, his et nullam verterem. Eu alia debet usu, an doming tritani est. Vix ad ponderum petentium suavitate, eum eu tempor populo, graece sententiae constituam vim ex. Cu torquatos reprimique neglegentur nec, voluptua periculis has ut, at eos discere deleniti sensibus.</div>
-				  </div>
-				</iron-collapse>
-			</template>
-		</div>
-	</paper-header-panel>
-<script>
+	<body unresolved class="fullbleed layout vertical custom-style">
+	<!body unresolved>
+		<paper-header-panel mode="scroll" class="flex" id="title">
+			<div class="paper-header">
+				<div class="topmenu">
+					<a href="index.html">Home</a>
+					<a href="blog.html">Blog</a>
+					<a href="projects.html">Projects</a>
+					<a href="resume.html">Resume</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</div>
+			<div class="fit" style="display:flex; justify-content:center;">
+				<div class="content">
+					<h1>Paul A. Keutelian</h1>
+					<button class="heading" aria-expanded$="[[isExpanded(opened1)]]" aria-controls="collapse1" onclick="toggle('#collapse1')">Collapse #1</button>
+					<template is="dom-bind">
+						<iron-collapse id="collapse1" tabindex="0" opened="{{opened1}}">
+						  <div class="content div-light">
+							Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea, id minim maiestatis incorrupte duo. Dolorum verterem ad ius, his et nullam verterem. Eu alia debet usu, an doming tritani est. Vix ad ponderum petentium suavitate, eum eu tempor populo, graece sententiae constituam vim ex. Cu torquatos reprimique neglegentur nec, voluptua periculis has ut, at eos discere deleniti sensibus. Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea, id minim maiestatis incorrupte duo. Dolorum verterem ad ius, his et nullam verterem. Eu alia debet usu, an doming tritani est. Vix ad ponderum petentium suavitate, eum eu tempor populo, graece sententiae constituam vim ex. Cu torquatos reprimique neglegentur nec, voluptua periculis has ut, at eos discere deleniti sensibus.
+						  </div>
+						</iron-collapse>
+					</template>
+				</div>
+			</div>
+		</paper-header-panel>
+		<script>
 
-  function toggle(selector) {
-    document.querySelector(selector).toggle();
-  }
-  document.querySelector('template[is=dom-bind]').isExpanded = function(opened) {
-    return String(opened);
-  };
-</script>
-</body>
+		  function toggle(selector) {
+			document.querySelector(selector).toggle();
+		  }
+		  document.querySelector('template[is=dom-bind]').isExpanded = function(opened) {
+			return String(opened);
+		  };
+		</script>
+	</body>
 </html> 
