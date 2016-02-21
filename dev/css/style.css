@@ -35,6 +35,22 @@ body{
 	color:gray;
 }
 
+.menuitem > a{
+	text-decoration:none;
+}
+
+.menuitem > a:link,a:visited {
+	color: white;
+}
+
+.menuitem > a:hover{
+	color: gray;
+}
+
+.menuitem > a:active{
+	color: red;
+}
+
 .paper-header{
 	background-color: rgba(0,0,0,0.7);
 	color: white;
