@@ -68,6 +68,15 @@ ul {
 	justify-content: center;
 }
 
+.normal-text{
+	font-size: 1em;
+	font-weight:300;
+	line-height:1.5em;
+	max-width:984px;
+	text-align:center;
+	margin:0 20px 0 20px;
+}
+
 .paper-header{
 	align-items:center;
 	background-color: rgba(0,0,0,0.8);
@@ -84,14 +93,13 @@ ul {
 }
 
 .spacer{
-	align:center;
-	align-content:center;
-	align-items:center;
-	display: flex;
-	flex-direction:column;
-	justify-content: center;
+	align: center;
+	align-content: center;
 	align-items: center;
-	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
 	margin: 0;
 	padding: 5em 0 5em 0;
 }
@@ -103,7 +111,9 @@ ul {
 
 .sub-col{
 	display:flex;
-	font-size:1em;
+	font-size:0.75em;
+	flex-basis:20%;
+	flex-grow:1;
 	line-height:1em;
 }
 
