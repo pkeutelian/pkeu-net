@@ -13,6 +13,7 @@
 		<link rel="import" href="bower_components/paper-button/paper-button.html">
 		<link rel="import" href="bower_components/paper-card/paper-card.html">
 		<link rel="import" href="bower_components/iron-collapse/iron-collapse.html">
+		<link rel="import" href="bower_components/iron-image/iron-image.html">
 		<! End imports lines>
 		<link rel='stylesheet' type='text/css' href="css/style.css">
 		<!link rel="import" href="build.html">
@@ -36,13 +37,16 @@
 				<div style="width:100%; height:59%; min-height:24em;"></div>
 				<!iron-image style="width:100%; height:59%; min-height:24em;" sizing="cover" src="images/stock-transfer-banner.jpg"><!/iron-image>
 				<!iron-image autoplay loop muted style="width:100%; height:59%; min-height:24em;" sizing="cover" src="vid/launch.mp4"><!/iron-image>
-				<div class="list-item spacer">
-					<div class="sub-title">HIIPER - Fusion Studies Lab</div>
-					<div class="sub-text">By using Inertial Electrostatic Confinement driven by a helicon antenna, and coupled with an electrostatic nozzle - we're able to make the space propulsion device of tomorrow... today. HIIPER and its fusion variant - VIPER, can make interplanetary access rapid, affordable, and viable.<br>Learn More.</div>
+				<div class="list-item spacer" style="background:black;">
+					<div class="sub-title" style="font-size:2.5em;">HIIPER - Fusion Studies Lab</div>
+					<div style="display:flex; flex-direction:row; flex-wrap:wrap; max-width:1000px;">
+						<div class="sub-text" style="flex-shrink:1; min-width:300px; max-width:484px; text-align:right;">By using Inertial Electrostatic Confinement driven by a helicon antenna, and coupled with an electrostatic nozzle - we're able to make the space propulsion device of tomorrow... today. HIIPER and its fusion variant - VIPER, can make interplanetary access rapid, affordable, and viable.<br><a href="http://www.n-plasma.com/fusion.html">Learn More</a>.</div>
+						<iron-image src="img/hiiper.jpg" style="background-color:black; flex-shrink:1; flex-grow:1;" preload fade></iron-image>
+					</div>
 				</div>
 				<div class="list-item spacer">
 					<div class="sub-title">AIAA Design/Build/Fly</div>
-					<div class="sub-text">Competing with an international community of universities we developed mission-specific aircraft to be light weight, rapidly-deploying, and performant.<br>Learn More.</div>
+					<div class="sub-text">Competing with an international community of universities we developed mission-specific aircraft to be light weight, rapidly-deploying, and performant.<br><a href="http://www.aiaadbf.org/2007_files/aiaadbf.htm">Learn More</a>.</div>
 				</div>
 				<div class="list-item spacer">
 					<div class="sub-title">PKeu.net</div>

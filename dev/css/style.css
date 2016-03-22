@@ -1,5 +1,5 @@
 a:link, a:visited {
-	color:blue;
+	color:#0099CC;
 	text-decoration:none;
 }
 
@@ -181,6 +181,7 @@ body{
 	line-height:1.5em;
 	/* margin:auto; */
 	max-width:984px;
+	width:100%;
 	text-align:center;
 	margin:0 20px 0 20px;
 }
