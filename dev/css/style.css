@@ -208,6 +208,20 @@ body{
 	color: red;
 }
 
+#contact-frame{
+	background-color:rgba(189,209,240,1);
+	display:flex;
+	flex-direction:column;
+	height:70em;
+	justify-content:center;
+	margine: 0 0 0 0;
+	width:100%;
+}
+
+#contact-page{
+	background-color:rgba(189,209,240,1);
+}
+
 #Proj-AIAA-DBF-overall{
 	background-image: url("../img/aiaa_dbf_042107-434.jpg");
 	background-repeat: no-repeat;
