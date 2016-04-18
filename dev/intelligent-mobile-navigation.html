@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Projects - PKeu.net</title>
+		<meta name=viewport content="width=device-width, height=device-height, initial-scale=1">
+		<meta name="theme-color" content="#29293D">
+		<script src="http://component.kitchen/packages/sample/webcomponentsjs/webcomponents.js"></script>
+		<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+		<link rel="import" href="elements.html"> <!-- remove once grunt is running -->
+		<! Move the following lines to imports >
+		<link href='https://fonts.googleapis.com/css?family=Work+Sans:100,700,300' rel='stylesheet' type='text/css'>
+		<link rel="import" href="bower_components/polymer/polymer.html">
+		<link rel="import" href="bower_components/paper-button/paper-button.html">
+		<link rel="import" href="bower_components/paper-card/paper-card.html">
+		<link rel="import" href="bower_components/iron-collapse/iron-collapse.html">
+		<link rel="import" href="bower_components/iron-image/iron-image.html">
+		<! End imports lines>
+		<link rel='stylesheet' type='text/css' href="css/style.css">
+		<!link rel="import" href="build.html">
+
+		<link rel="icon" type="img/ico" href="./images/favicon.ico">		
+	</head>
+	<body class="fullbleed layout vertical"> 
+		<paper-header-panel mode="scroll" class="flex" id="title">
+			<div class="paper-header">
+				<div class="topmenu">
+					<a href="index.html" style="font-weight:700">Paul</a>
+					<a href="blog.html">Blog</a>
+					<a href="projects.html">Projects</a>
+					<a href="resources.html">Resources</a>
+					<a href="resume.html">Resume</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</div>
+			<div class="fit project-list">
+				<div style="width:100%; height:59%; min-height:24em;"></div>
+				<!iron-image style="width:100%; height:59%; min-height:24em;" sizing="cover" src="images/stock-transfer-banner.jpg"><!/iron-image>
+				<!iron-image autoplay loop muted style="width:100%; height:59%; min-height:24em;" sizing="cover" src="vid/launch.mp4"><!/iron-image>
+				<div>
+					<div>
+						This is a list of projects I worked on as a part of <a>Intelligent Mobile Navigation</a>, a course on electronics, robotics, and intelligent design of machines I took at the University of Illinois. 
+						<p>
+						The class made an important emphasis on designing equipment that was functional, easy to use, and well presented. I highly encourage you to check out all of the projects, because the students here came up with some very creative machines with plenty of practical applications. Entries are ordered from last to first.
+					</div>
+				</div>
+				<div>
+					<div>Highly Automatic Wind Tunnel</div>
+					<div>
+						The "HAWT", as we called it, was a wind tunnel that used the Arduino microcontroller to regulate a wind tunnel by entering a Reynolds Number (Re) instead of an airspeed or input power level. Most scale tests in aerospace use Re, so it made sense to have a system that allows us to test using the same parameter that we calculate and predict results with. 
+						<p>
+						It worked well, and even though we only used a small fan this time around, this system can easily scale up. The Arduino is extremely responsive and with the right tools and a large enough power system this could be used in very large systems.  We could even program the unit to choose parameters to decide the air speed inside the tunnel; we picked Re because it was the most recognizable and useful demonstration. I worked on programming, manufacturing, and auxiliary electronics for this project, and a power supply I built to do experiments on my own is actually the demonstration power system in the photos in this article.
+					</div>
+				</div>
+				<div>
+					<div>Official Assembly Guide for the XBee Shield</div>
+					<div>
+						The XBee Shield is a wireless antenna add-on for the Arduino. We used it to demonstrate distributed communication and demonstrated it by playing “Sharks and Minnows” as a class.  The <a>guide I made</a> for the class ended up being adopted by NKE Electronics as the assembly guide for <a>version 2</a> of this product. 
+					</div>
+				</div>
+				<div>
+				<div>The Mouse Controller</div>
+					<div>
+						The mouse controller was a very simple alternative input device that used the XBee shield.  As above, this was for the Sharks and Minnows game we were playing with the class. A lot of the other projects had very creative inputs, such as capacitive sensing, accelerometers, and others.  You can see them all here (scroll down to "Make a networked object"). The focus for me on this was more interfacing with the mouse's connection than on the actual input itself. Understanding how the electronics worked later on would let me interface the Arduino to just about anything.
+					</div>
+				</div>
+				<div>GPS Wayfinder with Arduino</div>
+					<div>
+						One of my favorites, we coupled a GPS and a digital compass  to create a hand-held 'wayfinder'. We could program in our destination coordinated into the Arduino, then using the digital compass to know its orientation, an array of LEDs would light up pointing in the direction of the destination.  When you were in range of the target, all of the LEDs would light up to let you know you had arrived.
+					</div>
+				</div>
+					<div>Consumer electronics - UX Design of a Thermal and Light Sensor</div>
+					<div>
+						his was a child’s toy (a rubber duck) that could be used as a night light OR as a way to tell if the temperature of, say, bath water was safe enough for your child.  You input the temperature you want into the Arduino, and it would change color when the water became too hot.  In the demonstration, I only demonstrate how it responds to light because doing a thermal demonstration would have taken too long.
+					</div>
+				</div>
+			</div>
+		</paper-header-panel>
+	</body>
+</html> 
