@@ -208,6 +208,36 @@ body{
 	color: red;
 }
 
+#contact-frame{
+	background-color:rgba(189,209,240,1);
+	display:flex;
+	flex-direction:column;
+	height:70em;
+	justify-content:center;
+	margine: 0 0 0 0;
+	width:100%;
+}
+
+#contact-page{
+	background-color:rgba(189,209,240,1);
+}
+
+#Proj-AIAA-DBF-overall{
+	background-image: url("../img/aiaa_dbf_042107-434.jpg");
+	background-repeat: no-repeat;
+	backgroundposition: left top;
+	background-color: rgba(76,114,150,1);
+	color: white;
+}
+
+#Proj-AIAA-DBF-overall div{
+		background:linear-gradient(
+		90deg,
+		rgba(0,0,0,0) 0em,
+		rgba(76,114,150,1) 50%
+	);
+}
+
 #video-background {
   position: fixed;
   top: 50%; 

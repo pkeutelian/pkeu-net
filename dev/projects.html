@@ -23,14 +23,7 @@
 	<body class="fullbleed layout vertical"> 
 		<paper-header-panel mode="scroll" class="flex" id="title">
 			<div class="paper-header">
-				<div class="topmenu">
-					<a href="index.html" style="font-weight:700">Paul</a>
-					<a href="blog.html">Blog</a>
-					<a href="projects.html">Projects</a>
-					<a href="resources.html">Resources</a>
-					<a href="resume.html">Resume</a>
-					<a href="contact.html">Contact</a>
-				</div>
+				<script src="http://www.pkeu.net/topmenu.js"></script>
 			</div>
 			<div class="fit project-list">
 				<div style="width:100%; height:59%; min-height:24em;"></div>
@@ -43,9 +36,9 @@
 						<iron-image src="img/hiiper.jpg" style="background-color:black; flex-shrink:1; flex-grow:1;" preload fade></iron-image>
 					</div>
 				</div>
-				<div class="list-item spacer">
+				<div class="list-item spacer" id="Proj-AIAA-DBF-overall">
 					<div class="sub-title">AIAA Design/Build/Fly</div>
-					<div class="sub-text">Competing with an international community of universities we developed mission-specific aircraft to be light weight, rapidly-deploying, and performant.<br><a href="http://www.aiaadbf.org/2007_files/aiaadbf.htm">Learn More</a>.</div>
+					<div class="sub-text" id="Proj-AIAA-DBF-text">Competing with an international community of universities we developed mission-specific aircraft to be light weight, rapidly-deploying, and performant.<br><a href="http://www.aiaadbf.org/2007_files/aiaadbf.htm">Learn More about D/B/F.</a>  |  My Roles.</div>
 				</div>
 				<div class="list-item spacer">
 					<div class="sub-title">PKeu.net</div>
@@ -78,5 +71,15 @@
 				<p><hr width="38%">
 			</div>
 		</paper-header-panel>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-20624392-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</body>
 </html> 
