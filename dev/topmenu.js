@@ -7,4 +7,5 @@ document.write('\
 	<a href="http://www.pkeu.net/resume.html">Resume</a>\
 	<a href="http://www.pkeu.net/contact.html">Contact</a>\
 </div>\
+\
 ');
