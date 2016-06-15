@@ -14,6 +14,8 @@
 		<link rel="import" href="bower_components/paper-card/paper-card.html">
 		<link rel="import" href="bower_components/iron-collapse/iron-collapse.html">
 		<link rel="import" href="bower_components/iron-image/iron-image.html">
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 		<! End imports lines>
 		<link rel='stylesheet' type='text/css' href="css/style.css">
 		<!link rel="import" href="build.html">
@@ -26,7 +28,12 @@
 				<script src="http://www.pkeu.net/topmenu.js"></script>
 			</div>
 			<div class="fit project-list">
-				<div style="width:100%; height:59%; min-height:24em;"></div>
+				<div class="project-carousel"> <!--style="width:100%; height:59%; min-height:24em;"-->
+				<!style="width:100%; height:59%; min-height:24em;" sizing="cover">
+					<div><iron-image style="width:100%; min-height:48em;" sizing="cover" src="img/projhead/23271687254_5e64d726ba_o.jpg"><!/iron-image></div>
+					<div><iron-image style="width:100%; min-height:48em;" sizing="cover" src="img/projhead/23779739773_6ca529e660_o.jpg"><!/iron-image></div>
+					<div><iron-image style="width:100%; min-height:48em;" sizing="cover" src="img/projhead/24151425850_1cb6040569_o.jpg"><!/iron-image></div>
+				</div>
 				<!iron-image style="width:100%; height:59%; min-height:24em;" sizing="cover" src="images/stock-transfer-banner.jpg"><!/iron-image>
 				<!iron-image autoplay loop muted style="width:100%; height:59%; min-height:24em;" sizing="cover" src="vid/launch.mp4"><!/iron-image>
 				<div class="list-item spacer" style="background:black;">
@@ -71,6 +78,22 @@
 				<p><hr width="38%">
 			</div>
 		</paper-header-panel>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.project-carousel').slick({
+					dots: false,
+					infinite: true,
+					speed: 500,
+					fade: true,
+					cssEase: 'linear',
+					autoplay: true,
+					autoplaySpeed: 5000,
+				});
+			});
+		</script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
