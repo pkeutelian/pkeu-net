@@ -13,45 +13,96 @@
 		<link rel="import" href="bower_components/paper-button/paper-button.html">
 		<link rel="import" href="bower_components/paper-card/paper-card.html">
 		<link rel="import" href="bower_components/iron-collapse/iron-collapse.html">
+		<link rel="import" href="bower_components/iron-image/iron-image.html">
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 		<! End imports lines>
 		<link rel='stylesheet' type='text/css' href="css/style.css">
 		<!link rel="import" href="build.html">
 
 		<link rel="icon" type="img/ico" href="./images/favicon.ico">		
 	</head>
-	<body unresolved class="fullbleed layout vertical"> 
+	<body class="fullbleed layout vertical"> 
 		<paper-header-panel mode="scroll" class="flex" id="title">
 			<div class="paper-header">
-				<div class="topmenu">
-					<a href="index.html">Home</a>
-					<a href="blog.html">Blog</a>
-					<a href="projects.html">Projects</a>
-					<a href="resume.html">Resume</a>
-					<a href="contact.html">Contact</a>
-				</div>
+				<script src="http://www.pkeu.net/topmenu.js"></script>
 			</div>
-			<div class="fit">
-				<div style="width:100%; height:59%; min-height:24em;"></div>
+			<div class="fit project-list">
+				<div class="project-carousel"> <!--style="width:100%; height:59%; min-height:24em;"-->
+				<!style="width:100%; height:59%; min-height:24em;" sizing="cover">
+					<div><iron-image style="width:100%; min-height:48em;" sizing="cover" src="img/projhead/23271687254_5e64d726ba_o.jpg"><!/iron-image></div>
+					<div><iron-image style="width:100%; min-height:48em;" sizing="cover" src="img/projhead/23779739773_6ca529e660_o.jpg"><!/iron-image></div>
+					<div><iron-image style="width:100%; min-height:48em;" sizing="cover" src="img/projhead/24151425850_1cb6040569_o.jpg"><!/iron-image></div>
+				</div>
 				<!iron-image style="width:100%; height:59%; min-height:24em;" sizing="cover" src="images/stock-transfer-banner.jpg"><!/iron-image>
 				<!iron-image autoplay loop muted style="width:100%; height:59%; min-height:24em;" sizing="cover" src="vid/launch.mp4"><!/iron-image>
-				<div class="div-light spacer">
-					<div class="sub-title">HIIPER - Fusion Studies Lab</div>
-					<div class="sub-text">HIIPER (Helicon Injected Inertial Plasma Electrostatic Rocket) is a new class of spacecraft thruster we are developing that I feel will change the way space thrusters are approached and designed. In its end state it will be a thruster and a fusion reactor rolled in one. I deal more with the aerospace side of the engine, specifically its thrust capability, the shape of the exhaust and its ability to accomplish missions, as well as building simulations, experiment and testing, and doing CAD work. Additionally, I'm learning about space propulsion as part of my graduate work in NPRE. The beauty about this lab is that when someone has a good idea, we can and are encouraged to implement it, and because of that our design/upgrade/build times have been very fast. This picture was prepared by me for a proposal. I joined this lab because of my interest and previous work in applying plasma principles to combustion based engines.</div>
+				<div class="list-item spacer" style="background:black;">
+					<div class="sub-title" style="font-size:2.5em;">HIIPER - Fusion Studies Lab</div>
+					<div style="display:flex; flex-direction:row; flex-wrap:wrap; max-width:1000px;">
+						<div class="sub-text" style="flex-shrink:1; min-width:300px; max-width:484px; text-align:right;">By using Inertial Electrostatic Confinement driven by a helicon antenna, and coupled with an electrostatic nozzle - we're able to make the space propulsion device of tomorrow... today. HIIPER and its fusion variant - VIPER, can make interplanetary access rapid, affordable, and viable.<br><a href="http://www.n-plasma.com/fusion.html">Learn More</a>.</div>
+						<iron-image src="img/hiiper.jpg" style="background-color:black; flex-shrink:1; flex-grow:1;" preload fade></iron-image>
+					</div>
 				</div>
-				<div class="div-dark spacer">
-					<div class="sub-title">HIIPER Space Propulsion Lab, UIUC</div>
-					<div class="sub-text">This is a description. Fly planes, achieve victory.</div>
+				<div class="list-item spacer" id="Proj-AIAA-DBF-overall">
+					<div class="sub-title">AIAA Design/Build/Fly</div>
+					<div class="sub-text" id="Proj-AIAA-DBF-text">Competing with an international community of universities we developed mission-specific aircraft to be light weight, rapidly-deploying, and performant.<br><a href="http://www.aiaadbf.org/2007_files/aiaadbf.htm">Learn More about D/B/F.</a>  |  My Roles.</div>
 				</div>
-				<div class="div-light spacer">
-					<div class="sub-title">Arduino Builds</div>
-					<div class="sub-text"></div>
+				<div class="list-item spacer">
+					<div class="sub-title">PKeu.net</div>
+					<div class="sub-text">This website is built using (and as a pretext to learn) HTML5, CSS3, JavaScript, PHP, and managed as a project through GitLab complete with an internal wiki, issues system, and milestones. Everything was coded by handing using Notepad++ and Gedit, with larger binary assets revision controlled using Git-LFS. The layout, video, and visual assets were also done by me. The original site was built manually using HTML 1.1 in notepad.<br>Learn More.</div>
 				</div>
-				<div class="div-dark spacer">
+				<div class="list-item spacer">
 					<div class="sub-title">Unicron</div>
-					<div class="sub-text"></div>
+					<div class="sub-text">All internal projects are supported by a customized dedicated server using Xen Hypervisor on Arch Linux running virtual servers and containers running TeamSpeak, GitLab, Mattermost (#Slack), SSH, VPN, Minecraft, and NGinx with SSL from <a href="https://letsencrypt.org/">LetsEncrypt</a>. Unicron is an IT experiment supporting experiments.<br>Learn More.</div>
+				</div>
+				<div class="list-item spacer">
+					<div class="sub-title">Plasma Driven Propulsion</div>
+					<div class="sub-text">Harnessing plasma to drive chemical reactions faster, I investigated how to push combustion-based propulsion technologies higher, faster, and farther.<br>Learn More.</div>
+				</div>
+				<div class="list-item spacer">
+					<div class="sub-title">Senior Design - Propulsion</div>
+					<div class="sub-text">Launching a mission to L2 (The Second Lagrangian Point in the Earth-Sun system), I was responsible for selecting a propulsion system and launch vehicle that would keep the mission on time and under budget.<br>Learn More.</div>
+				</div>
+				<div class="list-item spacer">
+					<div class="sub-title">UIUC Wiki - Arduino</div>
+					<div class="sub-text">Intelligent Mobile Navigation was a course that took advantage of the Arduino platform to develop projects to make lives easier. Along with the course I wrote articles as part of the University of Illinois's wiki/Confluence documenting our work.<br>Learn More.</div>
+				</div>
+				<div class="list-item spacer">
+					<div class="sub-title">Gamers For Charity</div>
+					<div class="sub-text">Created to raise funding for survivors of the Haitian earthquake of 2010, Smash for Haiti and later Gamers For Charity became one of the top donors at UIUC that year and subsequently worked to collect funding for local charities. By maintaining a tight process and performing research, we've made sure that all donated money served its purpose and none went to paying overhead.<br>Learn More.</div>
+				</div>
+				<div class="list-item spacer">
+					<div class="sub-title">Personal Electronics Lab</div>
+					<div class="sub-text">Building a workspace and tools by using consumer-grade parts was the first step to creating and exploring new things. Using a power supply and locally sourced circuitry, a performant power supply that could source between 0-22 volts was built.<br>Learn More.</div>
 				</div>
 				<p><hr width="38%">
 			</div>
 		</paper-header-panel>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.project-carousel').slick({
+					dots: false,
+					infinite: true,
+					speed: 500,
+					fade: true,
+					cssEase: 'linear',
+					autoplay: true,
+					autoplaySpeed: 5000,
+				});
+			});
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-20624392-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</body>
 </html> 

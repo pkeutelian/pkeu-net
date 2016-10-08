@@ -19,3 +19,6 @@ videos are in vid/
 ## Code Reuse
 The menu bar and footers should be universal and imported on new pages.
 New pages should use the "template.html" file as a starting point and renamed to serve the page's purpose.
+
+## Flexbox Info
+Guide to Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
