@@ -1,0 +1,265 @@
+<VideoMeldProject Version="1.12">
+  <Settings>
+    <Audio Volume="1.000000" Channels="2"/>
+    <Video AspectRatio="1.777778" ImageDuration="5.0000000" AspectCorrection="On"/>
+  </Settings>
+  <Folders>
+    <Video>D:\Projects\pkeu-net\raw\</Video>
+    <Audio></Audio>
+    <Image></Image>
+  </Folders>
+  <State>
+    <Cursor Start="0.0000000" Finish="0.0000000"/>
+    <View Start="0.0000000" Finish="1:36.6596825"/>
+  </State>
+  <Tracks>
+    <Track Name="Track 1" Row="0" Sections="1" Length="14.0000000" Selected="Yes">
+      <Settings>
+        <Buttons Mute="Off" Solo="Off"/>
+        <Volume Value="1.0000"/>
+      </Settings>
+      <Sections>
+        <Section Name="02 Falcon 9 Cassiope Launch Video" Row="0" Start="0.0000000" From="17.0000000" To="24.0000000" Colour="#FF00FFFF" Speed="0.50000000" Type="Video">
+          <Settings>
+            <Buttons Mute="Off"/>
+          </Settings>
+          <Fade Name="Fade" Type="Variable" Varying="No">
+            <Values>
+              <Value Time="0.000000" Anchor="1" Curve="1">100.000000</Value>
+            </Values>
+          </Fade>
+          <FileName>D:\Projects\pkeu-net\raw\02 Falcon 9 Cassiope Launch Video.mp4</FileName>
+          <Effects>
+            <Effect Name="Aspect Ratio Correction" Enabled="Yes" Start="0.000000" Finish="0.000000" AnchorStart="1" AnchorFinish="2" PresetName="">
+              <Parameters>
+                <Parameter Name="Ratio" Type="Variable" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">1.000000</Value>
+                  </Values>
+                </Parameter>
+                <Parameter Name="Border" Type="List" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">Transparent</Value>
+                  </Values>
+                </Parameter>
+                <Parameter Name="Resolution" Type="List" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">Original</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+            <Effect Name="Fade Transition" Enabled="Yes" Start="-1.000000" Finish="0.000000" AnchorStart="2" AnchorFinish="2" PresetName="">
+              <Parameters>
+                <Parameter Name="Progress" Type="Variable" Varying="Yes">
+                  <Values>
+                    <Value Time="-23.000000" Anchor="1" Curve="1">0.000000</Value>
+                    <Value Time="0.000000" Anchor="1" Curve="0">0.000000</Value>
+                    <Value Time="0.000000" Anchor="2" Curve="0">100.000000</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+            <Effect Name="Fade Transition" Enabled="Yes" Start="0.000000" Finish="1.000000" AnchorStart="1" AnchorFinish="1" PresetName="">
+              <Parameters>
+                <Parameter Name="Progress" Type="Variable" Varying="Yes">
+                  <Values>
+                    <Value Time="-17.000000" Anchor="1" Curve="1">0.000000</Value>
+                    <Value Time="0.000000" Anchor="1" Curve="1">100.000000</Value>
+                    <Value Time="0.000000" Anchor="2" Curve="0">0.000000</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+          </Effects>
+        </Section>
+      </Sections>
+    </Track>
+    <Track Name="Track 5" Row="1" Sections="1" Length="34.1270446">
+      <Settings>
+        <Buttons Mute="Off" Solo="Off"/>
+        <Volume Value="1.0000"/>
+      </Settings>
+      <Sections>
+        <Section Name="Jason-3GoforLaunch" Row="1" Start="16.1270446" From="12.0000000" To="21.0000000" Colour="#FF00FFFF" Speed="0.50000000" Type="Video">
+          <Settings>
+            <Buttons Mute="Off"/>
+          </Settings>
+          <Fade Name="Fade" Type="Variable" Varying="No">
+            <Values>
+              <Value Time="0.000000" Anchor="1" Curve="1">100.000000</Value>
+            </Values>
+          </Fade>
+          <FileName>D:\Projects\pkeu-net\raw\Jason-3GoforLaunch.mp4</FileName>
+          <Effects>
+            <Effect Name="Aspect Ratio Correction" Enabled="Yes" Start="0.000000" Finish="0.000000" AnchorStart="1" AnchorFinish="2" PresetName="">
+              <Parameters>
+                <Parameter Name="Ratio" Type="Variable" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">1.000000</Value>
+                  </Values>
+                </Parameter>
+                <Parameter Name="Border" Type="List" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">Transparent</Value>
+                  </Values>
+                </Parameter>
+                <Parameter Name="Resolution" Type="List" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">Rendered</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+            <Effect Name="Fade Transition" Enabled="Yes" Start="0.000000" Finish="1.000000" AnchorStart="1" AnchorFinish="1" PresetName="">
+              <Parameters>
+                <Parameter Name="Progress" Type="Variable" Varying="Yes">
+                  <Values>
+                    <Value Time="-12.000000" Anchor="1" Curve="1">0.000000</Value>
+                    <Value Time="0.000000" Anchor="1" Curve="0">100.000000</Value>
+                    <Value Time="0.000000" Anchor="2" Curve="0">0.000000</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+            <Effect Name="Fade Transition" Enabled="Yes" Start="-1.000000" Finish="0.000000" AnchorStart="2" AnchorFinish="2" PresetName="">
+              <Parameters>
+                <Parameter Name="Progress" Type="Variable" Varying="Yes">
+                  <Values>
+                    <Value Time="-20.000000" Anchor="1" Curve="1">0.000000</Value>
+                    <Value Time="0.000000" Anchor="1" Curve="0">0.000000</Value>
+                    <Value Time="0.000000" Anchor="2" Curve="0">100.000000</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+          </Effects>
+        </Section>
+      </Sections>
+    </Track>
+    <Track Name="Track 4" Row="2" Sections="1" Length="1:04.3688725">
+      <Settings>
+        <Buttons Mute="Off" Solo="Off"/>
+        <Volume Value="1.0000"/>
+      </Settings>
+      <Sections>
+        <Section Name="Launch of Final SpaceX Falcon 9 v1.1 Rocket with Jason 3" Row="2" Start="34.3688725" From="25.0000000" To="40.0000000" Colour="#FF00FFFF" Speed="0.50000000" Type="Video">
+          <Settings>
+            <Buttons Mute="Off"/>
+          </Settings>
+          <Fade Name="Fade" Type="Variable" Varying="No">
+            <Values>
+              <Value Time="0.000000" Anchor="1" Curve="1">100.000000</Value>
+            </Values>
+          </Fade>
+          <FileName>D:\Projects\pkeu-net\raw\Launch of Final SpaceX Falcon 9 v1.1 Rocket with Jason 3.mp4</FileName>
+          <Effects>
+            <Effect Name="Aspect Ratio Correction" Enabled="Yes" Start="0.000000" Finish="0.000000" AnchorStart="1" AnchorFinish="2" PresetName="">
+              <Parameters>
+                <Parameter Name="Ratio" Type="Variable" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">1.000000</Value>
+                  </Values>
+                </Parameter>
+                <Parameter Name="Border" Type="List" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">Transparent</Value>
+                  </Values>
+                </Parameter>
+                <Parameter Name="Resolution" Type="List" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">Rendered</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+            <Effect Name="Fade Transition" Enabled="Yes" Start="-1.000000" Finish="0.000000" AnchorStart="2" AnchorFinish="2" PresetName="">
+              <Parameters>
+                <Parameter Name="Progress" Type="Variable" Varying="Yes">
+                  <Values>
+                    <Value Time="-39.000000" Anchor="1" Curve="1">0.000000</Value>
+                    <Value Time="0.000000" Anchor="1" Curve="0">0.000000</Value>
+                    <Value Time="0.000000" Anchor="2" Curve="0">100.000000</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+            <Effect Name="Fade Transition" Enabled="Yes" Start="0.000000" Finish="1.000000" AnchorStart="1" AnchorFinish="1" PresetName="">
+              <Parameters>
+                <Parameter Name="Progress" Type="Variable" Varying="Yes">
+                  <Values>
+                    <Value Time="-25.000000" Anchor="1" Curve="1">0.000000</Value>
+                    <Value Time="0.000000" Anchor="1" Curve="0">100.000000</Value>
+                    <Value Time="0.000000" Anchor="2" Curve="0">0.000000</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+          </Effects>
+        </Section>
+      </Sections>
+    </Track>
+    <Track Name="Track 3" Row="3" Sections="1" Length="1:25.9108975">
+      <Settings>
+        <Buttons Mute="Off" Solo="Off"/>
+        <Volume Value="1.0000"/>
+      </Settings>
+      <Sections>
+        <Section Name="PianoPan" Row="3" Start="1:05.8843135" From="13.6600000" To="18.6666460" Colour="#FF00FFFF" Speed="0.25000000" Type="Video" Selected="Yes">
+          <Settings>
+            <Buttons Mute="Off"/>
+          </Settings>
+          <Fade Name="Fade" Type="Variable" Varying="No">
+            <Values>
+              <Value Time="0.000000" Anchor="1" Curve="1">100.000000</Value>
+            </Values>
+          </Fade>
+          <FileName>D:\Projects\pkeu-net\raw\PianoPan.mp4</FileName>
+          <Effects>
+            <Effect Name="Aspect Ratio Correction" Enabled="Yes" Start="0.000000" Finish="0.000000" AnchorStart="1" AnchorFinish="2" PresetName="">
+              <Parameters>
+                <Parameter Name="Ratio" Type="Variable" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">1.000000</Value>
+                  </Values>
+                </Parameter>
+                <Parameter Name="Border" Type="List" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">Transparent</Value>
+                  </Values>
+                </Parameter>
+                <Parameter Name="Resolution" Type="List" Varying="No">
+                  <Values>
+                    <Value Time="0.000000" Anchor="1" Curve="1">Rendered</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+            <Effect Name="Fade Transition" Enabled="Yes" Start="-0.000000" Finish="1.000000" AnchorStart="1" AnchorFinish="1" PresetName="">
+              <Parameters>
+                <Parameter Name="Progress" Type="Variable" Varying="Yes">
+                  <Values>
+                    <Value Time="-13.660000" Anchor="1" Curve="1">0.000000</Value>
+                    <Value Time="0.000000" Anchor="1" Curve="0">100.000000</Value>
+                    <Value Time="0.000000" Anchor="2" Curve="0">0.000000</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+            <Effect Name="Fade Transition" Enabled="Yes" Start="-0.999999" Finish="0.000001" AnchorStart="2" AnchorFinish="2" PresetName="">
+              <Parameters>
+                <Parameter Name="Progress" Type="Variable" Varying="Yes">
+                  <Values>
+                    <Value Time="-17.666647" Anchor="1" Curve="1">0.000000</Value>
+                    <Value Time="0.000000" Anchor="1" Curve="0">0.000000</Value>
+                    <Value Time="0.000000" Anchor="2" Curve="0">100.000000</Value>
+                  </Values>
+                </Parameter>
+              </Parameters>
+            </Effect>
+          </Effects>
+        </Section>
+      </Sections>
+    </Track>
+  </Tracks>
+</VideoMeldProject>
